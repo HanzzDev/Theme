@@ -10,11 +10,11 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 
 # License key variable
-LICENSE_KEY="heracantik"
+LICENSE_KEY="ahmadganteng"
 
 # Function to check license
 check_license() {
-    if [ "$LICENSE_KEY" == "heracantik" ]; then
+    if [ "$LICENSE_KEY" == "ahmadganteng" ]; then
         return 0
     else
         return 1
@@ -23,7 +23,7 @@ check_license() {
 
 # Display message if license is valid
 display_message() {
-    echo -e "${GREEN}𝘾𝙄𝘾𝘼𝘿𝘼 3301 𝙄𝙎 𝙃𝙀𝙍𝙀! 𝙇𝙀𝙏𝙎 𝘿𝙊 𝙏𝙃𝙀 𝙅𝙊𝙐𝙍𝙉𝙀𝙔!${RESET}"
+    echo -e "${GREEN}𝘾𝙄𝘾𝘼𝘿𝘼𝙎 3301 𝙄𝙎 𝙃𝙀𝙍𝙀! 𝙇𝙀𝙏𝙎 𝘿𝙊 𝙏𝙃𝙀 𝙅𝙊𝙐𝙍𝙉𝙀𝙔!${RESET}"
 }
 
 # Software installation function
@@ -78,14 +78,14 @@ fix_yarn() {
 if check_license; then
     display_message
     install_software
-    animate_text "𝘾𝙍𝘼𝘾𝙆𝙀𝘿 𝘽𝙔 𝘼𝙃𝙈𝘼𝘿 𝙏𝙃𝙀 𝘾𝙄𝘾𝘼𝘿𝘼 3301"
+    animate_text "𝘾𝙍𝘼𝘾𝙆𝙀𝘿 𝘽𝙔 𝘼𝙃𝙈𝘼𝘿 𝙏𝙃𝙀 𝘾𝙄𝘾𝘼𝘿𝘼𝙎 3301"
 else
     echo "Masukkan lisensi Anda:"
     read -r LICENSE_KEY
     if check_license; then
         display_message
         install_software
-        animate_text "𝘾𝙍𝘼𝘾𝙆𝙀𝘿 𝘽𝙔 𝘼𝙃𝙈𝘼𝘿 𝙏𝙃𝙀 𝘾𝙄𝘾𝘼𝘿𝘼 3301"
+        animate_text "𝘾𝙍𝘼𝘾𝙆𝙀𝘿 𝘽𝙔 𝘼𝙃𝙈𝘼𝘿 𝙏𝙃𝙀 𝘾𝙄𝘾𝘼𝘿𝘼𝙎 3301"
     else
         echo "𝙇𝙞𝙨𝙚𝙣𝙨𝙞 𝘼𝙣𝙙𝙖 𝙎𝙖𝙡𝙖𝙝! 𝙎𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙠𝙪𝙣𝙟𝙪𝙣𝙜𝙞 𝙎𝙖𝙡𝙪𝙧𝙖𝙣 𝙃𝙚𝙧𝙖 𝘼𝙣𝙣𝙤𝙪𝙣𝙘𝙚𝙢𝙚𝙣𝙩!"
         exit 1
@@ -837,7 +837,7 @@ trap 'echo -e "\n𝗞𝗘𝗧𝗜𝗞 𝟭𝟱 𝗟𝗔𝗟𝗨 𝗘𝗡𝗧𝗘
 show_menu() {
     if [ "$1" == "first" ]; then
         if [ ! -f "$SKIP_HI_FILE" ]; then
-            message="SAYA ADALAH PROGRAM YANG DIBUAT UNTUK MEMBANTU ANDA, SILAHKAN DIPILIH OPSI DIBAWAH INI."
+            message="SILAHKAN DIPILIH OPSI DIBAWAH INI."
             for (( i=0; i<${#message}; i++ )); do
                 echo -n "${message:$i:1}"
                 sleep 0.1
@@ -888,7 +888,7 @@ handle_choice() {
         12) installthememcube;;
         13) installminecraftpurpletheme;;
         14) install_stellartheme;;
-        15) echo -e "${GREEN}ANDA TELAH KELUAR DARI SCRIPT INI TERIMAKASIH${RESET}"; exit 0;;
+        15) echo -e "${GREEN}TERIMAKASIH${RESET}"; exit 0;;
         *) echo -e "${RESET}Pilihan tidak Benar Silakan coba lagi${RESET}";;
     esac
 }
