@@ -898,7 +898,7 @@ check_license() {
     read -r LICENSE_KEY
     # Add the logic to verify the license key here.
     # This function should return 0 if the license is valid, and 1 otherwise.
-    if [ "$LICENSE_KEY" == "heracantik" ]; then
+    if [ "$LICENSE_KEY" == "ahmadganteng" ]; then
         return 0
     else
         return 1
