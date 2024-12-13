@@ -1,7 +1,7 @@
 # 🌟 Thema Installer V2
 
 Script ini dibuat agar memudahkan untuk menginstall thema pterodactyl, jika ada yang memperjual belikan script ini
-segera lapor ke [WhatsApp](https://wa.me/6285183343636) atau [Telegram](https://t.me/Deliogalilei) 
+segera lapor ke [WhatsApp](https://wa.me/6283892198234) atau [Telegram](https://t.me/HanzzDev) 
 
 ![Logo Proyek](https://img0.pixhost.to/images/905/531261117_test.jpg)
 
@@ -37,7 +37,7 @@ Pastikan Anda telah menginstal:
 2. pkg install git
 3. Run repository:
     ```bash
-    bash <(curl https://raw.githubusercontent.com/AhmadXCerberus/ThemaV2/refs/heads/main/install.sh)
+    bash <(curl https://raw.githubusercontent.com/HanzzDev/Theme/refs/heads/main/install.sh)
     ```
-    - token : heracantik
+    - token : hanzzdev
     - Selamat menggunakan, semoga hari anda lebih berwarna dengan thema baru! 
