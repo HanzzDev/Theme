@@ -37,7 +37,7 @@ Pastikan Anda telah menginstal:
 2. pkg install git
 3. Run repository:
     ```bash
-    bash <(curl https://raw.githubusercontent.com/HanzzDev/Theme/refs/heads/main/install.sh)
+    bash <(curl https://raw.githubusercontent.com/HanzzDev/Theme/refs/heads/master/install.sh)
     ```
     - token : hanzzdev
     - Selamat menggunakan, semoga hari anda lebih berwarna dengan thema baru! 
